@@ -221,7 +221,7 @@ body {
   }
 
   .bottom-text {
-      font-size: 12px ;
+      font-size: 22px ;
   }
 
   .step-details-container {
@@ -254,8 +254,8 @@ body {
   }
 
   .padding-footer {
-      padding-left: 1.5rem;
-      padding-right: 2.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
       padding-bottom: 0px;
   }
 
