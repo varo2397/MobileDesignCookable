@@ -152,7 +152,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.fa-lg .fal {
+.fa-lg, .fal {
   font-size: 12px;
 }
 
@@ -236,7 +236,7 @@ body {
       margin-top: 0vh
   }
 
-  .fa-lg .fal{
+  .fa-lg, .fal{
       font-size: 8px;
   }
 
