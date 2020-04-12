@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MobileDesignCookable/static/css/main.6505ec3d.chunk.css",
+    "main.js": "/MobileDesignCookable/static/js/main.0140cf12.chunk.js",
+    "main.js.map": "/MobileDesignCookable/static/js/main.0140cf12.chunk.js.map",
+    "runtime-main.js": "/MobileDesignCookable/static/js/runtime-main.db83ef50.js",
+    "runtime-main.js.map": "/MobileDesignCookable/static/js/runtime-main.db83ef50.js.map",
+    "static/js/2.e845ed85.chunk.js": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js",
+    "static/js/2.e845ed85.chunk.js.map": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js.map",
+    "index.html": "/MobileDesignCookable/index.html",
+    "precache-manifest.3bbfd22c40b2a7ecd8b6e51e4a7fc9cc.js": "/MobileDesignCookable/precache-manifest.3bbfd22c40b2a7ecd8b6e51e4a7fc9cc.js",
+    "service-worker.js": "/MobileDesignCookable/service-worker.js",
+    "static/css/main.6505ec3d.chunk.css.map": "/MobileDesignCookable/static/css/main.6505ec3d.chunk.css.map",
+    "static/js/2.e845ed85.chunk.js.LICENSE.txt": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db83ef50.js",
+    "static/js/2.e845ed85.chunk.js",
+    "static/css/main.6505ec3d.chunk.css",
+    "static/js/main.0140cf12.chunk.js"
+  ]
+}
