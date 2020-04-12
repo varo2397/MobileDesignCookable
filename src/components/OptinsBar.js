@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
 class OptinsBar extends Component {
+
     render() {
+        const { toggleOptinsBar = () => {} } = this.props
+
         return (
             <div className="row justify-content-end align-items-end">
                 <div className=" justify-content-start align-items-end flex-column">
                     <div className=" bg-history text-center padding-optins margin-optins optins-bar">
                         <div className="relative margin-text-optins">
-                            <div className="center-icon active-icon absolute">
+                            <div className="center-icon active-icon absolute" onClick={toggleOptinsBar}>
                                 <i className="fa fa-lightbulb-on"></i>
                             </div>
                             <p className="text-white text-left  optins-text"><span
