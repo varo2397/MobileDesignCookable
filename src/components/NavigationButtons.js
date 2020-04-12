@@ -5,7 +5,7 @@ class NavigationButtons extends Component {
     render() {
         const { isMobile, children } = this.props;
         return (
-            <div className={!isMobile ? "row pb-4 d-flex justify-content-space-between" : "pb-4"}>
+            <div className={!isMobile ? "row pb-4 d-flex justify-content-space-between" : "pb-4 w-100"}>
                 {
                     !isMobile ?
                         <Fragment>
@@ -18,7 +18,7 @@ class NavigationButtons extends Component {
                                 <p><i className="fa fa-chevron-right text-white bottom-text"></i></p>
                             </div>
                         </Fragment> :
-                        <div className="d-flex flex-row justify-content-between align-items-center">
+                        <div className="d-flex flex-row justify-content-between align-items-center w-100">
                             <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-left text-white bottom-text"></i></p>
                             {children}
                             <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-right text-white bottom-text"></i></p>

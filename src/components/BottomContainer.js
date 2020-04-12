@@ -4,7 +4,7 @@ import withMobile from '../hoc/withMobile';
 
 class BottomContainer extends Component {
     render() {
-        const { isMobile } = this.props;
+        const { isMobile, showNavigation } = this.props;
         const instructionsText = `
         Line the sheet tray with the parchment.
         Place wings on parchment.
@@ -32,6 +32,7 @@ class BottomContainer extends Component {
                             <Fragment>
                                 <NavigationButtons>
                                     <ProgressBar
+                                        showNavigation={showNavigation}
                                         instructionsText={instructionsText}
                                         instructionsTitle={instructionsTitle}
                                         instructionsStep={instructionsStep}

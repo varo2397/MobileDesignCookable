@@ -411,4 +411,7 @@ body {
   object-fit: fill;
 }
 
+.show-navigation-mobile {
+  background-color: rgba(0,0,0,0.5);
+}
 
