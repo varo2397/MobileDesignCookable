@@ -5,6 +5,7 @@ import BottomContainer from './BottomContainer';
 import ProgressBar from './ProgressBar';
 import NavigationButtons from './NavigationButtons';
 import MobileNavigation from './MobileNavigation';
+import Layout from './Portrait/Layout';
 
 export {
     RecipeTitle,
@@ -13,5 +14,6 @@ export {
     BottomContainer,
     ProgressBar,
     NavigationButtons,
-    MobileNavigation
+    MobileNavigation,
+    Layout
 }

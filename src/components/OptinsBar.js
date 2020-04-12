@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import withPortrait from '../hoc/withPortrait';
 
 class OptinsBar extends Component {
 
     render() {
-        const { toggleOptinsBar = () => {} } = this.props
+        const { toggleOptinsBar = () => { }, isPortrait } = this.props
 
         return (
-            <div className="row justify-content-end align-items-end">
+            <div className={`row ${isPortrait ? 'justify-content-center pt-4' : 'justify-content-end align-items-end'} `}>
                 <div className=" justify-content-start align-items-end flex-column">
-                    <div className=" bg-history text-center padding-optins margin-optins optins-bar">
+                    <div className=" bg-history text-center padding-optins margin-optins optins-bar" style={{maxWidth: isPortrait ? '100%' : ''}}>
                         <div className="relative margin-text-optins">
                             <div className="center-icon active-icon absolute" onClick={toggleOptinsBar}>
                                 <i className="fa fa-lightbulb-on"></i>
@@ -35,9 +36,9 @@ class OptinsBar extends Component {
                                 Grace and Wings</p>
                         </div>
                     </div>
-                    <div className="d-flex flex-row  optins-bar" style={{ padding: 0 }}>
+                    <div className="d-flex flex-row  optins-bar" style={{ padding: 0, maxWidth: isPortrait ? '100%' : '' }}>
                         <div className="book-bottom-left"></div>
-                        <div className="book-bottom-right"></div>
+                        <div className="book-bottom-right" ></div>
                     </div>
                 </div>
             </div>
@@ -45,4 +46,4 @@ class OptinsBar extends Component {
     }
 }
 
-export default OptinsBar;
+export default withPortrait(OptinsBar);

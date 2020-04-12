@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import withMobile from '../hoc/withMobile';
+import withPortrait from '../hoc/withPortrait';
 
 class RecipeTitle extends Component {
 
     render() {
-        const { name, author, isMobile, toggleOptinsBar, showIcon } = this.props;
+        const { name, author, isMobile, toggleOptinsBar, showIcon, isPortrait } = this.props;
 
         return (
             <div className="row margin-header">
@@ -12,8 +13,8 @@ class RecipeTitle extends Component {
                     <p className="text-white font-weight-bold">{name} <span
                         className="font-italic font-weight-light">{author}</span></p>
                     {
-                        isMobile && showIcon ?
-                            <div className="center-icon active-icon" onClick={toggleOptinsBar} style={{borderStyle: 'none'}}>
+                        isMobile && showIcon && !isPortrait ?
+                            <div className="center-icon active-icon" onClick={toggleOptinsBar} style={{ borderStyle: 'none' }}>
                                 <i className="fal fa-lightbulb-on"></i>
                             </div> : null
                     }
@@ -23,4 +24,4 @@ class RecipeTitle extends Component {
     }
 }
 
-export default withMobile(RecipeTitle);
+export default withPortrait(withMobile(RecipeTitle));
