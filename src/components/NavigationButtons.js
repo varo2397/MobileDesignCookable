@@ -19,9 +19,9 @@ class NavigationButtons extends Component {
                             </div>
                         </Fragment> :
                         <div className="d-flex flex-row justify-content-between align-items-center w-100">
-                            <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-left text-white bottom-text"></i></p>
+                            {/* <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-left text-white bottom-text"></i></p> */}
                             {children}
-                            <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-right text-white bottom-text"></i></p>
+                            {/* <p className="d-flex flex-column h-100 justify-content-center"><i className="fa fa-chevron-right text-white bottom-text"></i></p> */}
                         </div>
                 }
 

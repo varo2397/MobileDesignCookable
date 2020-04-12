@@ -3,7 +3,8 @@ import OptinsBar from './OptinsBar';
 import TopContainer from './TopContainer';
 import BottomContainer from './BottomContainer';
 import ProgressBar from './ProgressBar';
-import NavigationButtons from './NavigationButtons'
+import NavigationButtons from './NavigationButtons';
+import MobileNavigation from './MobileNavigation';
 
 export {
     RecipeTitle,
@@ -11,5 +12,6 @@ export {
     TopContainer,
     BottomContainer,
     ProgressBar,
-    NavigationButtons
+    NavigationButtons,
+    MobileNavigation
 }

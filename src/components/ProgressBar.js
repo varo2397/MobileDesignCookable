@@ -52,7 +52,7 @@ class ProgressBar extends Component {
                     </div>
                     :
                     showNavigation ?
-                        <div className="d-flex flex-row w-100 pb-4" style={{ marginLeft: '1.5rem', marginRight: '1.5rem' }}>
+                        <div className="d-flex flex-row w-100 pb-4" >
                             <div className="d-flex flex-column pr-2" style={{ width: '10%' }}>
                                 <p className="text-white progress-text">WARM UP</p>
                                 <div className="progress-default progress-done"></div>
@@ -83,7 +83,7 @@ class ProgressBar extends Component {
                                 <div className="progress-default"></div>
                             </div>
                         </div> :
-                        <div className="d-flex flex-column" style={{ marginLeft: '1.5rem', marginRight: '1.5rem' }}>
+                        <div className="d-flex flex-column" >
                             <div className="d-flex flex-row">
                                 <p className="text-white instructional-title">{instructionsTitle} &nbsp;
                                             <span>{instructionsStep}</span>
