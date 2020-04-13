@@ -30,7 +30,7 @@ class ProgressBar extends Component {
                             <div className="d-flex flex-column pr-2" style={{ width: '20%' }}>
 
                                 <p className="text-white align-self-center progress-text"><i
-                                    className="fas fa-chevron-double-down current-step-icon-details"></i></p>
+                                    className="fas fa-chevron-double-down current-step-icon-details" style={{fontSize: isPortrait ? '8px' : ''}}></i></p>
                                 <div className="d-flex flex-row">
                                     <div className="progress-default progress-process"></div>
                                     <div className="progress-missing"></div>
@@ -62,7 +62,7 @@ class ProgressBar extends Component {
 
                                 <div className="d-flex flex-column pr-2" style={{ width: '20%' }}>
 
-                                    <p className="text-white align-self-center progress-text"><i
+                                    <p className="text-white align-self-center progress-text" style={{marginBottom: -2}}><i
                                         className="fas fa-chevron-double-down current-step-icon-details"></i></p>
                                     <div className="d-flex flex-row">
                                         <div className="progress-default progress-process"></div>

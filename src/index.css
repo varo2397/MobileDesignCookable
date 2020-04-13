@@ -389,6 +389,36 @@ body {
   }
   .optins-text {
     font-size: 14px;
+    margin-left: 2rem;
+  }
+
+  .main-text-optins {
+    font-size: 16px;
+  }
+
+  .fa-lg {
+    font-size: 10px;
+  }
+
+  .center-icon {
+    height: 25px;
+    width: 25px;
+    color: white;
+    top: -5px !important;
+    left: -14px;
+    background-color: #555555;
+    border-width: 1px;
+  }
+
+  .active-icon {
+    height: 35px !important;
+    width: 35px !important;
+    top: -10px !important;
+    left: -18px !important;
+  }
+
+  .margin-text-optins {
+    margin-bottom: 1.5rem;
   }
 }
 
