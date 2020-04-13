@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MobileDesignCookable/precache-manifest.29ee98335832a00091c028a8662f08e9.js"
+  "/MobileDesignCookable/precache-manifest.a8e6bebf7a556150c7a93770d2dabd5e.js"
 );
 
 self.addEventListener('message', (event) => {
