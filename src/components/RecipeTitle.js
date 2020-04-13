@@ -8,7 +8,7 @@ class RecipeTitle extends Component {
         const { name, author, isMobile, toggleOptinsBar, showIcon, isPortrait } = this.props;
 
         return (
-            <div className="row margin-header">
+            <div className="row margin-header pt-2">
                 <div className="col-md-12 col-sm-12 title-text d-flex flex-row justify-content-between">
                     <div className="d-flex flex-row">
                         <img src={process.env.PUBLIC_URL + "/cookable.png"} alt="" style={{ width: 20, height: 20, objectFit: 'cover', marginRight: '1rem', filter: 'brightness(0) invert(1)' }} />
