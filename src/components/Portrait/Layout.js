@@ -18,7 +18,7 @@ class Layout extends Component {
         } = this.props;
 
         return (
-            <div className="w-100" style={{ backgroundColor: 'black', height: '100vh', overflowY: 'scroll' }}>
+            <div className="w-100" style={{ backgroundColor: 'black', height: '100vh', overflowY: 'scroll', overflowX: 'hidden' }}>
                 <div className="relative">
                     <div className="gradient-top" style={{ height: '20%', backgroundImage: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.01))' }}></div>
                     <video loop muted autoPlay src={process.env.PUBLIC_URL + "/Beer_Pour_Videvo.mp4"} style={{ width: '100vw', height: '30vh', objectFit: 'fill' }}></video>
