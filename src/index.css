@@ -361,7 +361,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 781px){
+@media only screen and (max-width: 1000px) and (min-width: 780px){
   .progress-text {
       font-size: 12px;
   }
@@ -420,8 +420,27 @@ body {
   .margin-text-optins {
     margin-bottom: 1.5rem;
   }
+
+  .progress-default, .progress-missing {
+    background-color: #555555;
+  }
+
+  .margin-progress {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
+@media only screen and (orientation: portrait) and (min-height: 1000px){
+  .d-flex.flex-column.pl-2.pr-2 {
+    padding-left: 1.0rem !important;
+    padding-right: 1.0rem !important;
+  }
+
+  .progress-text {
+    font-size: 16px !important;
+  }
+}
 
 .progress-done {
   background-color: #fff;
