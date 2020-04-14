@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MobileDesignCookable/static/css/main.84ed6892.chunk.css",
+    "main.css": "/MobileDesignCookable/static/css/main.a43db473.chunk.css",
     "main.js": "/MobileDesignCookable/static/js/main.33f3858e.chunk.js",
     "main.js.map": "/MobileDesignCookable/static/js/main.33f3858e.chunk.js.map",
     "runtime-main.js": "/MobileDesignCookable/static/js/runtime-main.db83ef50.js",
@@ -8,15 +8,15 @@
     "static/js/2.e845ed85.chunk.js": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js",
     "static/js/2.e845ed85.chunk.js.map": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js.map",
     "index.html": "/MobileDesignCookable/index.html",
-    "precache-manifest.f04050f729a9a2fa44514920128fc763.js": "/MobileDesignCookable/precache-manifest.f04050f729a9a2fa44514920128fc763.js",
+    "precache-manifest.61bc2bbd5b4fbd269ed6bef277d67684.js": "/MobileDesignCookable/precache-manifest.61bc2bbd5b4fbd269ed6bef277d67684.js",
     "service-worker.js": "/MobileDesignCookable/service-worker.js",
-    "static/css/main.84ed6892.chunk.css.map": "/MobileDesignCookable/static/css/main.84ed6892.chunk.css.map",
+    "static/css/main.a43db473.chunk.css.map": "/MobileDesignCookable/static/css/main.a43db473.chunk.css.map",
     "static/js/2.e845ed85.chunk.js.LICENSE.txt": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db83ef50.js",
     "static/js/2.e845ed85.chunk.js",
-    "static/css/main.84ed6892.chunk.css",
+    "static/css/main.a43db473.chunk.css",
     "static/js/main.33f3858e.chunk.js"
   ]
 }

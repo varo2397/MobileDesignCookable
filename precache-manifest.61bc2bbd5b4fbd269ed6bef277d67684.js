@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa7ad27f4498a3631095f4014000096",
+    "revision": "a099b2abaf29fe1cd829c2621f739c24",
     "url": "/MobileDesignCookable/index.html"
   },
   {
-    "revision": "734cbea42282d53bbc09",
-    "url": "/MobileDesignCookable/static/css/main.84ed6892.chunk.css"
+    "revision": "7bdbad9392772dcfda72",
+    "url": "/MobileDesignCookable/static/css/main.a43db473.chunk.css"
   },
   {
     "revision": "7eaedaabddc8413340fb",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MobileDesignCookable/static/js/2.e845ed85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "734cbea42282d53bbc09",
+    "revision": "7bdbad9392772dcfda72",
     "url": "/MobileDesignCookable/static/js/main.33f3858e.chunk.js"
   },
   {
