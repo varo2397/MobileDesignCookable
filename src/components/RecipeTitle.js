@@ -17,7 +17,7 @@ class RecipeTitle extends Component {
                     </div>
                     {
                         isMobile && showIcon && !isPortrait ?
-                            <div className="center-icon active-icon mt-3" onClick={toggleOptinsBar} style={{ borderStyle: 'none' }}>
+                            <div className="center-icon active-icon" onClick={toggleOptinsBar} style={{ borderStyle: 'none', marginTop: -6 }}>
                                 <i className="fal fa-lightbulb-on"></i>
                             </div> : null
                     }

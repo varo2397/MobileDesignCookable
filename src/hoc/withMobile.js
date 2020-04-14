@@ -11,8 +11,8 @@ export default function withMobile(Component) {
         }
     
         componentDidMount() {
-            this.setState({isMobile: window.screen.width <= 780});
-            this.subscription = window.matchMedia('(max-width: 780px)');
+            this.setState({isMobile: window.screen.width <= 850});
+            this.subscription = window.matchMedia('(max-width: 850px)');
             this.subscription.addListener(this.onChange);
         }
 
